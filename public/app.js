@@ -14,7 +14,10 @@ angular.module('exampleApp', ['ngRoute'])
 	        redirectTo: '/'
 	    });
     //remove # from URL
-    $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+    });
 }])
 
 .run(function($route, $rootScope, $location, $routeParams) {
@@ -22,6 +25,5 @@ angular.module('exampleApp', ['ngRoute'])
     $rootScope.$on( "$routeChangeStart", function(event, next, current) {
     	//set current variable to template (used in showing/hiding elements)
     	$rootScope.current = next.templateUrl;
-        $location.path("/");
 	});
 })
