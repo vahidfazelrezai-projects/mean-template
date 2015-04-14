@@ -8,4 +8,4 @@ Make sure to customize the following files:
 - public/app.js (app name)
 - public/controllers/exampleController.js (app name)
 - public/serivecs/DataService.js (app name)
-- public/views/index.html (default page)
+- public/views/index.html (default page and app name)
