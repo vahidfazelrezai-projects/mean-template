@@ -1,0 +1,27 @@
+{
+  "name": "app_name",
+  "version": "0.0.1",
+  "description": "cool thing that does cool stuff",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vfazel/mean-template"
+  },
+  "author": "me",
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.35",
+    "npm": "2.1.18"
+  },
+  "dependencies": {
+    "express": "^4.11.0",
+    "express-session": "^1.10.1",
+    "morgan": "^1.5.1",
+    "body-parser": "^1.10.1",
+    "mongoose": "^3.8.21"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fleekApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Awesome App</title>
+        <meta name="description" content="cool thing that does cool stuff">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+        <!-- <link rel="shortcut icon" href="/assets/img/icons/favicon.ico"> -->
+
+        <script src="/assets/js/vendor/angular.min.js"></script>
+        <script src="/assets/js/vendor/angular-route.min.js"></script>
+        <script src="/app.js"></script>
+        <script src="/services/DataService.js"></script>
+        
+    </head>
+    <body>
+      <!-- <nav-bar></nav-bar> -->
+      <div id="page-content" class="fill">
+        <div ng-view></div>
+      </div>
+    </body>
+</html>
